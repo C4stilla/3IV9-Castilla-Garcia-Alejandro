@@ -84,7 +84,7 @@ class Examen{
                     if (pokemon == 1){
                     System.out.println("Peleara charmander");
                     System.out.println("Tu enemigo sera bulbasour");
-                    System.out.println("Elige tu ataque, (1= primario, 2= secundario");
+                    System.out.println("Elige tu ataque, 1= primario, 2= secundario");
                     ataque = entrada.nextInt();
                     if (ataque == 1){
                     System.out.println("Tu ataque contra bulbasour (planta) con un ataque tipo fuego es critico y bulbasour es derrotado");
@@ -96,7 +96,7 @@ class Examen{
                     if (pokemon == 3){
                     System.out.println("Peleara squartle");
                     System.out.println("Tu enemigo sera charmander");
-                    System.out.println("Elige tu ataque, (1= primario, 2= secundario");
+                    System.out.println("Elige tu ataque, 1= primario, 2= secundario");
                     ataque = entrada.nextInt();
                     if (ataque == 1){
                     System.out.println("Tu ataque contra charmander (fuego) con un ataque tipo agua es critico y charmander es derrotado");
@@ -108,7 +108,7 @@ class Examen{
                     if (pokemon == 2){
                     System.out.println("Peleara bulbasour");
                     System.out.println("Tu enemigo sera squartle");
-                    System.out.println("Elige tu ataque, (1= primario, 2= secundario");
+                    System.out.println("Elige tu ataque, 1= primario, 2= secundario");
                     ataque = entrada.nextInt();
                     if (ataque == 1){
                     System.out.println("Tu ataque contra squartle (agua) con un ataque tipo planta es critico y squartle es derrotado");
