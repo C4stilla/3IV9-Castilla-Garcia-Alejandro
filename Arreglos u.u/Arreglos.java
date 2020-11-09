@@ -85,10 +85,6 @@ public class Arreglos{
                 cero++;
             }
         }
-        System.out.println("Positivos: " + p);
-        System.out.println("Negativos: " + n);
-        System.out.println("Ceros: " + cero);
-
         proP = sumaP/p;
         proN = sumaN/n;
         if(proP <= 0){
@@ -174,7 +170,7 @@ public class Arreglos{
         System.out.println("Listado de calificaciones superiores al promedio: ");
         for (i = 0; i < numeros.length; i++) {
             if (numeros[i] > pro) {
-                System.out.println("Calificacion num " + (i + 1));
+                System.out.println("Calificacion en la posicion: " + (i + 1));
             }
         }
         System.out.println("Total de aprobados: " + ap);
